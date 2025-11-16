@@ -6,15 +6,15 @@ const Welcome = () => {
 
   return (
     <div className="welcome-container">
-      <h1>Welcome!</h1>
+      <h1>Selamat Datang!</h1>
       <p>
-        You have <strong>3 seconds</strong> for each shot – no retakes! <br />
-        This photobooth captures <strong>4 pictures</strong> in a row, so strike your best pose and have fun!
+        Kamu punya waktu <strong>5 detik</strong> untuk setiap foto – tanpa pengulangan! <br />
+        Photobooth ini akan mengambil <strong>4 foto</strong> berturut-turut, jadi berpose semenarik mungkin dan nikmati!
       </p>
       <p>
-        After the session, <span style={{ color: "pink" }}></span> download your digital copy and share the fun!
+        Setelah sesi selesai, <span style={{ color: "pink" }}></span> unduh salinan digitalmu dan bagikan keseruannya!
       </p>
-      <button onClick={() => navigate("/photobooth")}>START</button>
+      <button onClick={() => navigate("/photobooth")}>MULAI</button>
     </div>
   );
 };
